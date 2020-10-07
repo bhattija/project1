@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <style>
+            
+            *{
+                 margin: 0;
+                 padding: 0;
+                font-family: Century Gothic;
+            }
+              body{
+                background-color: #2E8B57;
+            }
+            h1{
+                padding-top: 100px;
+                text-align: center;
+                font-size: 55px;
+                color: white;
+
+            }
+            form{
+                margin:20px auto;
+                width: 320px;
+                color: white;
+            }
+            input{
+                padding: 10px;
+                font-size: inherit;
+            }
+            input[ type = "text"]{
+                display: block;
+                margin-bottom: 25px;
+                width: 100%;
+                border: 2px solid white;
+            }
+            input[ type = "text"]{
+                display: block;
+                margin-bottom: 25px;
+                width: 100%;
+                border: 2px solid white;
+            }
+            input[ type = "radio"]{
+                margin: 0 9px 25px 18px;
+            }
+            input[ type = "submit"]{
+                width: 344px;
+                height: 45px;
+                border: none;
+                background-color: white;
+                color:  #2E8B57;
+            }
+
+            *{
+      margin: 0;
+      padding: 0;
+      font-family: Century Gothic;
+    }
+    ul{
+      float: right;
+      list-style-type: none;
+      margin: 25px;
+
+    }
+    ul li{
+      display: inline-block;
+    }
+    ul li a{
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 20px;
+      border: 1px solid #fff;
+      transition: 0.5s ease;
+    }
+  
+    ul li a:hover{
+      background-color: #fff;
+      color: #000;
+    }
+    ul li.active a{
+      background-color: #fff;
+      color: #000;
+    }
+    .logo img{
+      float: left;
+      width: 120px;
+      height: auto;
+    }
+
+            
+          
+
+        </style>
+       
+        <div class = "main">
+            <div class ="logo">
+              <img src = "https://lh5.googleusercontent.com/iAYkDxSXr5wDygu2Z0Kq6ApQ-HZ7CEtOl11VcWXYRceroH625t3oXEAsGC61H_J3shkjwrI=w16383">
+            </div>
+          <ul>
+             <li><a href= "#"> Home</a></li>
+             <li><a href= "#"> Services</a></li>
+             <li><a href= "#"> Gallary</a></li>
+             <li><a href= "#"> About</a></li>
+             <li class = "active"><a href= "#"> Contact</a></li>
+          </ul>
+        </div>
+        <h1>City Processessing Systems Application </h1>
+        <title>Simple Form</title>
+    </head>
+    <body>
+       
+        <title>Simple Form</title>
+        
+        <form>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Email Address"> 
+            <input type="text" placeholder="Street Address"> 
+            <input type="text" placeholder = "Phone Number">
+            <input type="text" placeholder = "Type of Service">
+            <div>
+                 Contact By:
+                <input type = "radio" id= "Phone Number" name ="contactinfo"><label for="Phone Number">Phone</label>
+                <input type = "radio" id= "Email" name= "contactinfo"><label for="Email">Email</label>
+            </div>
+            <input type ="submit" name="Submit">
+        </form>
+    </body>
+</html>
