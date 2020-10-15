@@ -1,96 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <style>
-    *{
-      margin: 0;
-      padding: 0;
-      font-family: Century Gothic;
-    }
-    header{
-      background-image:linear-gradient(rgba( 0, 0 ,0 ,0.5),rgba( 0, 0 ,0 ,0.5)), url( https://i.ytimg.com/vi/wDTWrg7SJLo/maxresdefault.jpg);
-      height:100vh;
-      background-size: cover;
-      background-position: center;
-
-    }
-    ul{
-      float: right;
-      list-style-type: none;
-      margin: 25px;
-
-    }
-    ul li{
-      display: inline-block;
-    }
-    ul li a{
-      text-decoration: none;
-      color: #fff;
-      padding: 5px 20px;
-      border: 1px solid #fff;
-      transition: 0.5s ease;
-    }
-  
-    ul li a:hover{
-      background-color: #fff;
-      color: #000;
-    }
-    ul li.active a{
-      background-color: #fff;
-      color: #000;
-    }
-    .logo img{
-      float: left;
-      width: 200px;
-      height: auto;
-    }
-
-    .title{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate( -50%, -50%);
-
-    }
-    .title h1{
-      color: #FFFF;
-      font-size: 50px;
-    }
-
-    .button{
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      transform: translate( -50%, -50%);
-
-    }
-    .btn{
-      border: 1px solid #fff;
-      padding: 10px 30px;
-      color: #fff;
-      text-decoration: none;
-      transition: 0.5s ease;
-    }
-
-    .btn:hover{
-      background-color: white;
-      color: #000;
-    }
-    
-  </style>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="shortcut icon" type="imgae/png" href="computer-152-216996.png"></link>
   <meta charset="UTF-8">
         <body>
           <header>
             <div class = "main">
               <div class ="logo">
-                <img src = "https://lh4.googleusercontent.com/RqNz7e5xwJtnrFNAEy8qVqnHuUK1g9x2bKOGb1ngNBfZLTQ5E1dgKO1jnsBXBW1-sPBwIWs=w16383">
+                <img src = "https://static.wixstatic.com/media/8e4cf8_de3a0532996843149e57ee8129ce259c~mv2.png/v1/fill/w_88,h_79,al_c,q_85,usm_0.66_1.00_0.01/CPU%20Primary%201.webp">
               </div>
             <ul>
-              <li class = "active"><a href= "#"> Home</a></li>
-               <li><a href= "#"> Services</a></li>
-               <li><a href= "#"> Gallary</a></li>
-               <li><a href= "#"> About</a></li>
-               <li><a href= "#"> Contact</a></li>
+               <li class = "active"id = "home"><a href= "#"> Home</a></li>
+               <li id = "Services"><a href= "#"> Services</a></li>
+               <li id = "Gallary"><a href= "#"> Gallary</a></li>
+               <li id = "About"><a href= "#"> About</a></li>
+               <li id = "Contact"><a href= "#"> Contact</a></li>
             </ul>
           </div>
           <div class = "title">
@@ -98,12 +23,13 @@
           </div>
 
           <div class="button">
-            <a href = "#" class = "btn"> OUR SERVICES</a>
-            <a href = "#" class = "btn"> ABOUT US</a>
+            <a href = "#" class = "btn" id ="Serv"> OUR SERVICES</a>
+            <a href = "#" class = "btn" id = "Abut"> ABOUT US</a>
           </div>
 
           </header>
 
         </body>
     </head>
+    <script src="p1.js"></script>
 </html>
