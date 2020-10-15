@@ -1,0 +1,46 @@
+  body{
+      background-color:  #2E8B57;;
+  }
+  h1, h2{
+      text-align: center;
+      margin-bottom: 25px;
+      color: white;
+      font-family: monospace;
+  }
+  .gallary{
+      align-items: center;
+      border: 1px solid #ccc;
+  }
+
+  .gallary img{
+    align-content: center;
+      width: 100%;
+      height: 400px;
+  }
+
+  .container{
+    margin-left: 16%;
+    align-content: center;
+    justify-content: center;
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+  }
+
+  @media only screen and ( max-width: 700px){
+      .container{
+          width: 50%;
+          margin: 6px 0;
+      }
+  }
+  @media only screen and ( max-width: 500px){
+    .container{
+        width: 100%;
+      
+    }
+}
+  
