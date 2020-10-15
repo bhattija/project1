@@ -1,5 +1,4 @@
 ul{
-  justify-content: top;
   justify-content: right;
   float: right;
   list-style-type: none;
@@ -49,11 +48,11 @@ h2{
   font-size: 55px;
   color: white;
   top: 0;
-  margin-left: 20%;
+ 
   text-align: center;
 }
 p{
-  text-indent: 0.2;
+ 
   margin: 10px;
   color: white;
   line-height: 30px;
@@ -67,7 +66,6 @@ p{
  
 img{
   justify-content: center;
-  widows: 20%;
   height: 30vh;
 }
 .container{
