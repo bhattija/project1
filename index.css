@@ -22,7 +22,7 @@
   ul li a{
     text-decoration: none;
     color: #fff;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border: 1px solid #fff;
     transition: 0.5s ease;
   }
@@ -72,4 +72,14 @@
     background-color: white;
     color: #000;
   }
+  
+  @media only screen and( max-width: 500px){
+   main ul{
+      flex-direction: column;
+    }
+      
+    }
+    title h1{
+      font-size: small;
+    }
   
