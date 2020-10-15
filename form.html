@@ -1,132 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-      <link rel="shortcut icon" type="imgae/png" href="computer-152-216996.png"></link>
-        <style>
-            
-            *{
-                 margin: 0;
-                 padding: 0;
-                font-family: Century Gothic;
-            }
-              body{
-                background-color: #2E8B57;
-            }
-            h1{
-                padding-top: 100px;
-                text-align: center;
-                font-size: 55px;
-                color: white;
 
-            }
-            form{
-                margin:20px auto;
-                width: 320px;
-                color: white;
-               
-            }
-            input{
-                padding: 10px;
-                font-size: inherit;
-            }
-            input[ type = "text"]{
-                display: block;
-             
-                margin-bottom: 25px;
-                width: 100%;
-                border: 2px solid white;
-            }
-            input[ type = "text"]{
-                display: block;
-                margin-bottom: 25px;
-                width: 100%;
-                border: 2px solid white;
-            }
-            input[ type = "radio"]{
-                margin: 0 9px 25px 18px;
-            }
-            input[ type = "submit"]{
-                width: 344px;
-                height: 45px;
-                border: none;
-                background-color: white;
-                color:  #2E8B57;
-            }
+<head>
+  <link rel="shortcut icon" type="imgae/png" href="computer-152-216996.png">
+  </link>
+  <link rel="stylesheet" type="text/css" href="form.css">
 
-            *{
-      margin: 0;
-      padding: 0;
-      font-family: Century Gothic;
-    }
-    ul{
-      float: right;
-      list-style-type: none;
-      margin: 25px;
+  <div class="main">
+    <div class="logo">
+      <img
+        src="https://static.wixstatic.com/media/8e4cf8_de3a0532996843149e57ee8129ce259c~mv2.png/v1/fill/w_88,h_79,al_c,q_85,usm_0.66_1.00_0.01/CPU%20Primary%201.webp">
+    </div>
+    <ul>
+      <li id="home"><a href="#"> Home</a></li>
+      <li id="Services"><a href="#"> Services</a></li>
+      <li id="Gallary"><a href="#"> Gallary</a></li>
+      <li id="About"><a href="#"> About</a></li>
+      <li class="active" id="Contact"><a href="#"> Contact</a></li>
+    </ul>
+  </div>
+  <h1>City Processessing Units Application </h1>
+  <title>Simple Form</title>
+</head>
 
-    }
-    ul li{
-      display: inline-block;
-    }
-    ul li a{
-      text-decoration: none;
-      color: #fff;
-      padding: 5px 20px;
-      border: 1px solid #fff;
-      transition: 0.5s ease;
-    }
-  
-    ul li a:hover{
-      background-color: #fff;
-      color: #000;
-    }
-    ul li.active a{
-      background-color: #fff;
-      color: #000;
-    }
-    .logo img{
-      float: left;
-      width: 120px;
-      height: auto;
-    }
+<body>
 
-            
-          
+  <title>Simple Form</title>
 
-        </style>
-       
-       <div class = "main">
-        <div class ="logo">
-          <img src = "https://static.wixstatic.com/media/8e4cf8_de3a0532996843149e57ee8129ce259c~mv2.png/v1/fill/w_88,h_79,al_c,q_85,usm_0.66_1.00_0.01/CPU%20Primary%201.webp">
-        </div>
-      <ul>
-         <li id = "home"><a href= "#"> Home</a></li>
-         <li id = "Services"><a href= "#"> Services</a></li>
-         <li id = "Gallary"><a href= "#"> Gallary</a></li>
-         <li id = "About"><a href= "#"> About</a></li>
-         <li class = "active" id = "Contact"><a href= "#"> Contact</a></li>
-      </ul>
-        </div>
-        <h1>City Processessing Units Application </h1>
-        <title>Simple Form</title>
-    </head>
-    <body>
-       
-        <title>Simple Form</title>
-        
-        <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Email Address"> 
-            <input type="text" placeholder="Street Address"> 
-            <input type="text" placeholder = "Phone Number">
-            <input type="text" placeholder = "Type of Service">
-            <div>
-                 Contact By:
-                <input type = "radio" id= "Phone Number" name ="contactinfo"><label for="Phone Number">Phone</label>
-                <input type = "radio" id= "Email" name= "contactinfo"><label for="Email">Email</label>
-            </div>
-            <input type ="submit" name="Submit">
-        </form>
-    </body>
-    <script src="p1.js"></script>
+  <form>
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <input type="text" placeholder="Email Address">
+    <input type="text" placeholder="Street Address">
+    <input type="text" placeholder="Phone Number">
+    <input type="text" placeholder="Type of Service">
+    <div>
+      Contact By:
+      <input type="radio" id="Phone Number" name="contactinfo"><label for="Phone Number">Phone</label>
+      <input type="radio" id="Email" name="contactinfo"><label for="Email">Email</label>
+    </div>
+    <input type="submit" name="Submit">
+  </form>
+</body>
+<script src="p1.js"></script>
+
 </html>

@@ -18,7 +18,7 @@ ul{
   ul li a{
     text-decoration: none;
     color: #fff;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border: 1px solid #fff;
     transition: 0.5s ease;
   }
@@ -114,7 +114,12 @@ h1{
     line-height: 25px;
     color: white;
 }
-
+.links{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
 @media ( max-width: 980px){
     .Service-box{
         max-width: 45%;
